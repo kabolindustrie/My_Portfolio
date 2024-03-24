@@ -1,8 +1,9 @@
 import './App.css'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
-import Skill from './Components/Skill'
+import Trust from './Components/Trust'
 import Cvinfo from './Components/Cvinfo'
+import Skill from './Components/Skill'
 
 function App() {
 
@@ -10,8 +11,9 @@ function App() {
     <>
     <Navbar />
     <Hero />
-    <Skill />
+    <Trust />
     <Cvinfo />
+    <Skill />
     </>
   )
 }

@@ -31,7 +31,7 @@ export default function Cvinfo() {
             <p className="text-6xl font-medium mb-2 md:text-8xl md:mb-5">
               12<span className="text-3xl md:text-4xl">+</span>
             </p>
-            <p className="text-xl md:max-w-[120px]">Années d'expériences</p>
+            <p className="text-xl md:max-w-[120px]">Années dexpériences</p>
           </div>
           <div className="mb-10 md:mb-24">
             <p className="text-6xl font-medium mb-2 md:text-8xl md:mb-5">36</p>
