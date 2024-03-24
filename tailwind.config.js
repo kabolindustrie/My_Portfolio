@@ -17,6 +17,9 @@ export default {
         "red-light": "#F4C4C4",
         "gray-light": "#E6E6E6",
         "gray-dark": "#626262",
+      },
+      maxWidth: {
+        260: "260px",
       }
     },
   },

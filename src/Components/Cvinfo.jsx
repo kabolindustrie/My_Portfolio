@@ -1,3 +1,6 @@
+import CV_AmineK from "../assets/images/general/CV_AmineK.pdf";
+import ArrowDownload from "../assets/images/general/ArrowDownload.png";
+
 export default function Cvinfo() {
   return (
     <div
@@ -44,26 +47,40 @@ export default function Cvinfo() {
         {/* --------- COL 2 avec les infos --------- */}
         <div className="mt-10 text-center md:mt-0 md:text-left">
           <span className="mb-8 inline-block">2023</span>
-          <div className="max-w-[260px] mx-auto mb-10 md:max-w-full md:mx-0">
+          <div className="max-w-260 mx-auto mb-16 md:max-w-full md:mx-0">
             <p className="font-lora text-xl mb-4">
-              Diplôme de concepteur développeur d'applications web
+              Diplôme de concepteur développeur dapplications web
             </p>
             <p className="text-sm text-gray-dark">Le wagon</p>
           </div>
           <span className="mb-8 inline-block">2023</span>
-          <div className="max-w-[260px] mx-auto mb-10 md:max-w-full md:mx-0">
+          <div className="max-w-260 mx-auto mb-16 md:max-w-full md:mx-0">
             <p className="font-lora text-xl mb-4">
-              Diplôme de concepteur développeur d'applications web
+              Diplôme de concepteur développeur dapplications web
             </p>
             <p className="text-sm text-gray-dark">Le wagon</p>
           </div>
           <span className="mb-8 inline-block">2023</span>
-          <div className="max-w-[260px] mx-auto mb-10 md:max-w-full md:mx-0">
+          <div className="max-w-260 mx-auto mb-16 md:max-w-full md:mx-0">
             <p className="font-lora text-xl mb-4">
-              Diplôme de concepteur développeur d'applications web
+              Diplôme de concepteur développeur dapplications web
             </p>
             <p className="text-sm text-gray-dark">Le wagon</p>
           </div>
+          <a
+            href={CV_AmineK}
+            className="text-xs bg-main text-white flex max-w-260 mx-auto justify-center items-center py-4 px-6 sm:text-sm md:max-w-full md:text-base md:px-10"
+            download="CV_AmineK.pdf"
+          >
+            Télécharger mon CV
+            <img
+              width="20"
+              height="18"
+              src={ArrowDownload}
+              alt=""
+              className="ml-4 h-2.5 duration-200 md:h-3"
+            />
+          </a>
         </div>
       </div>
     </div>
