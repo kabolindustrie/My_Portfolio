@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import Trust from './Components/Trust'
 import Cvinfo from './Components/Cvinfo'
 import Skill from './Components/Skill'
+import Projects from './Components/Projects'
 
 function App() {
 
@@ -11,9 +12,10 @@ function App() {
     <>
     <Navbar />
     <Hero />
-    <Trust />
-    <Cvinfo />
     <Skill />
+    <Cvinfo />
+    <Trust />
+    <Projects />
     </>
   )
 }
