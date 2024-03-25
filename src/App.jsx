@@ -5,6 +5,8 @@ import Trust from './Components/Trust'
 import Cvinfo from './Components/Cvinfo'
 import Skill from './Components/Skill'
 import Projects from './Components/Projects'
+import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
     <Cvinfo />
     <Trust />
     <Projects />
+    <Contact />
+    <Footer />
     </>
   )
 }
