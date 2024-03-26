@@ -15,9 +15,9 @@ function App() {
     <Navbar />
     <Hero />
     <Skill />
-    <Cvinfo />
-    <Trust />
     <Projects />
+    <Trust />
+    <Cvinfo />
     <Contact />
     <Footer />
     </>
