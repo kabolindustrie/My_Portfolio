@@ -3,12 +3,12 @@ import React from "../assets/images/skills/React.png";
 import Tailwind from "../assets/images/skills/Tailwindlogo.png";
 import Nextjs from "../assets/images/skills/Nextjslogo.png";
 import Github from "../assets/images/skills/Githublogo1.png";
-import Ruby from "../assets/images/skills/Rubylogo2.png";
+import Ruby from "../assets/images/skills/Rubylogo.png";
 
 
 export default function Skill() {
   return (
-    <div id="skills" className="bg-main px-4 pt-14 pb-20 md:pt-20 md:pb-24">
+    <div id="compétences" className="bg-main px-4 pt-14 pb-20 md:pt-20 md:pb-24">
       <p className="italic font-lora text-center text-gray-light text-sm mb-4 md:text-lg">
         Voici mes Technologies préférées
       </p>
@@ -24,7 +24,7 @@ export default function Skill() {
         deleniti minima dignissimos harum possimus non quibusdam nisi, aut,
         magni molestiae provident! Expedita fugit sunt odio!
       </p>
-      <div className="grid max-w-xs mx-auto grid-cols-2 sm:grid-cols-3 sm:max-w-md md:py-8 lg:flex lg:justify-center lg:max-w-none lg:items-center">
+      <div className="grid max-w-xs mx-auto grid-cols-2 sm:grid-cols-3 sm:max-w-md md:py-8 lg:flex lg:justify-center lg:max-w-none lg:items-end">
         <div className="text-white flex justify-center items-center flex-col flex-nowrap p-2 lg:mx-6">
           <img
             width={56}
@@ -33,7 +33,7 @@ export default function Skill() {
             alt="logo de JavaScript"
             className="h-10 mb-4 lg:h-12 xl:h-14"
           />
-          <p className="italic font-lora text-xl md:text-2xl">Javascript</p>
+          <p className="italic font-lora text-xl">Javascript</p>
         </div>
         <div className="text-white flex justify-center items-center flex-col flex-nowrap p-2 lg:mx-6">
           <img
@@ -43,17 +43,17 @@ export default function Skill() {
             alt="logo de JavaScript"
             className="h-10 mb-4 lg:h-12 xl:h-14"
           />
-          <p className="italic font-lora text-xl md:text-2xl">React</p>
+          <p className="italic font-lora text-xl">React</p>
         </div>
         <div className="text-white flex justify-center items-center flex-col flex-nowrap p-2 lg:mx-6">
           <img
-            width={56}
+            width={70}
             height={56}
             src={Tailwind}
             alt="logo de Tailwind"
-            className="h-10 mb-4 lg:h-12 xl:h-14"
+            className="h-10 mb-5 lg:h-12 xl:h-14"
           />
-          <p className="italic font-lora text-xl md:text-2xl">Tailwind CSS</p>
+          <p className="italic font-lora text-xl">Tailwind CSS</p>
         </div>
         <div className="text-white flex justify-center items-center flex-col flex-nowrap p-2 lg:mx-6">
           <img
@@ -63,7 +63,7 @@ export default function Skill() {
             alt="logo de Nextjs"
             className="h-10 mb-4 lg:h-12 xl:h-14"
           />
-          <p className="italic font-lora text-xl md:text-2xl">Next Js</p>
+          <p className="italic font-lora text-xl">Next Js</p>
         </div>
         <div className="text-white flex justify-center items-center flex-col flex-nowrap p-2 lg:mx-6">
           <img
@@ -73,7 +73,7 @@ export default function Skill() {
             alt="logo de JavaScript"
             className="h-10 mb-4 lg:h-12 xl:h-14"
           />
-          <p className="italic font-lora text-xl md:text-2xl">Ruby on rails</p>
+          <p className="italic font-lora text-xl">Ruby on rails</p>
         </div>
         <div className="text-white flex justify-center items-center flex-col flex-nowrap p-2 lg:mx-6">
           <img
@@ -83,7 +83,7 @@ export default function Skill() {
             alt="logo de JavaScript"
             className="h-10 mb-4 lg:h-12 xl:h-14"
           />
-          <p className="italic font-lora text-xl md:text-2xl">Github</p>
+          <p className="italic font-lora text-xl">Github</p>
         </div>
 
       </div>
