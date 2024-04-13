@@ -1,5 +1,10 @@
 import JS from "../assets/images/skills/JS.png";
 import React from "../assets/images/skills/React.png";
+import Tailwind from "../assets/images/skills/Tailwindlogo.png";
+import Nextjs from "../assets/images/skills/Nextjslogo.png";
+import Github from "../assets/images/skills/Githublogo1.png";
+import Ruby from "../assets/images/skills/Rubylogo2.png";
+
 
 export default function Skill() {
   return (
@@ -44,41 +49,41 @@ export default function Skill() {
           <img
             width={56}
             height={56}
-            src={JS}
-            alt="logo de JavaScript"
+            src={Tailwind}
+            alt="logo de Tailwind"
             className="h-10 mb-4 lg:h-12 xl:h-14"
           />
-          <p className="italic font-lora text-xl md:text-2xl">Javascript</p>
+          <p className="italic font-lora text-xl md:text-2xl">Tailwind CSS</p>
+        </div>
+        <div className="text-white flex justify-center items-center flex-col flex-nowrap p-2 lg:mx-6">
+          <img
+            width={70}
+            height={56}
+            src={Nextjs}
+            alt="logo de Nextjs"
+            className="h-10 mb-4 lg:h-12 xl:h-14"
+          />
+          <p className="italic font-lora text-xl md:text-2xl">Next Js</p>
         </div>
         <div className="text-white flex justify-center items-center flex-col flex-nowrap p-2 lg:mx-6">
           <img
             width={56}
             height={56}
-            src={JS}
+            src={Ruby}
             alt="logo de JavaScript"
             className="h-10 mb-4 lg:h-12 xl:h-14"
           />
-          <p className="italic font-lora text-xl md:text-2xl">Javascript</p>
+          <p className="italic font-lora text-xl md:text-2xl">Ruby on rails</p>
         </div>
         <div className="text-white flex justify-center items-center flex-col flex-nowrap p-2 lg:mx-6">
           <img
-            width={56}
+            width={90}
             height={56}
-            src={JS}
+            src={Github}
             alt="logo de JavaScript"
             className="h-10 mb-4 lg:h-12 xl:h-14"
           />
-          <p className="italic font-lora text-xl md:text-2xl">Javascript</p>
-        </div>
-        <div className="text-white flex justify-center items-center flex-col flex-nowrap p-2 lg:mx-6">
-          <img
-            width={56}
-            height={56}
-            src={JS}
-            alt="logo de JavaScript"
-            className="h-10 mb-4 lg:h-12 xl:h-14"
-          />
-          <p className="italic font-lora text-xl md:text-2xl">Javascript</p>
+          <p className="italic font-lora text-xl md:text-2xl">Github</p>
         </div>
 
       </div>
