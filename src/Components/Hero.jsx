@@ -1,6 +1,10 @@
 import portrait from "../assets/images/hero/Ragnar.jpg";
-import arrow from "../assets/images/general/arrowDown.png";
+// import arrow from "../assets/images/general/arrowDown.png";
 import decoration from "../assets/images/hero/decoration.png";
+import CV_AmineK from "../assets/images/general/CV_AmineK.pdf";
+import ArrowDownload from "../assets/images/general/ArrowDownload.png";
+import linkedinlogo from "../assets/images/social-media/linkedin.svg";
+import Githublogo from "../assets/images/social-media/githublogo2.svg";
 
 export default function Hero() {
   return (
@@ -15,19 +19,40 @@ export default function Hero() {
       </div>
       <p className="mb-8 sm:text-lg md:text-3xl">
         Bonjour, je suis <strong>Amine Kabol</strong>
+        <a
+        className="group inline-flex justify-center items-center px-2"
+        href="#" target="linkedin.com/in/amine-kabol-b2a92b24a">
+            <img
+              width={30}
+              height={20}
+              className="h-4"
+              src={linkedinlogo}
+              alt="Icone Linkedin"
+            />
+          </a>
+          <a href="#" target="linkedin.com/in/amine-kabol-b2a92b24a" className="group inline-flex px-2">
+            <img
+              width={30}
+              height={30}
+              className="h-4"
+              src={Githublogo}
+              alt="Icone Github"
+            />
+          </a>
       </p>
-      <h1 className="font-lora text-4xl mb-12 max-w-xs mx-auto font-light sm:text 5xl sm:mb-14 sm:max-w-md md:text-6xl md:max-w-xl">Développeur <italic>React</italic> en quête de projets.</h1>
-
+      <h1 className="font-lora text-4xl mb-12 max-w-xs mx-auto font-light sm:text 5xl sm:mb-14 sm:max-w-md md:text-6xl md:max-w-xl">Développeur <italic>React</italic> en quête de projets.
+      </h1>
     <a
     className="group text-xs bg-main text-white inline-flex justify-center items-center py-4 px-6 mb-20 hover:bg-main-light duration-200 sm:text-sm md:text-base md:px-10"
-    href="#">
-      Mes compétences
+    href={CV_AmineK}>
+      Télécharger mon CV
       <img
-      width={14}
-      height={15}
+      width={20}
+      height={18}
       className="ml-4 h-2.5 group-hover:translate-y-0.5 duration-200"
-      src={arrow} alt="" />
+      src={ArrowDownload} alt="" />
     </a>
+
     <img
     width={580}
     height={1255}

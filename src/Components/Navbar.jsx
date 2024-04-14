@@ -1,6 +1,8 @@
 import { useState } from "react";
 import crossSvg from "../assets/images/hero/cross.svg";
 import menuSvg from "../assets/images/hero/menu.svg";
+// import linkedinlogo from "../assets/images/social-media/linkedin.svg";
+// import Githublogo from "../assets/images/social-media/githublogo2.svg";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
