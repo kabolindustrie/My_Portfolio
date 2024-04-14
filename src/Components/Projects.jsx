@@ -46,7 +46,7 @@ export default function Projects() {
             en détail et de les acheter en toute simplicité.
           </p>
         </div>
-        <div className="max-w-sm mx-auto cursor-pointer lg:max-w-full lg:translate-y-40">
+        <div className="max-w-sm mx-auto cursor-pointer lg:max-w-full md:translate-y-40">
           <div className="group relative overflow-hidden mb-4 bg-gray-light">
             <img height={549} width={490} src={Mockup2} alt="" />
             <a
@@ -80,12 +80,13 @@ export default function Projects() {
             </a>
           </div>
           <p className="font-lora text-main font-medium text-xl mb-3 sm:text-2xl">
-            Titre projet
+            Boxy Generator
           </p>
           <p className="text-dark-gray text-xs leading-5 max-w-xs sm:text-sm sm:leading-7 sm:max-w-sm lg:max-w-md">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At ad
-            cumque vitae quis facere possimus earum adipisci, quae esse.
-            Necessitatibus.
+          Application web simplifiant la création de conteneurs HTML en générant automatiquement un code CSS complet.
+          L'objectif principal est de fournir aux utilisateurs un outil convivial pour générer rapidement du code CSS personnalisé pour leurs conteneurs HTML, réduisant ainsi le temps de développement.
+          Développée avec React, Redux et stylisée avec Tailwind CSS pour une expérience utilisateur intuitive et élégante.
+
           </p>
         </div>
       </div>
