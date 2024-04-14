@@ -21,7 +21,7 @@ export default function Hero() {
         Bonjour, je suis <strong>Amine Kabol</strong>
         <a
         className="group inline-flex justify-center items-center px-2"
-        href="#" target="linkedin.com/in/amine-kabol-b2a92b24a">
+        href="https://linkedin.com/in/amine-kabol-b2a92b24a" target="">
             <img
               width={30}
               height={20}
@@ -30,7 +30,7 @@ export default function Hero() {
               alt="Icone Linkedin"
             />
           </a>
-          <a href="#" target="linkedin.com/in/amine-kabol-b2a92b24a" className="group inline-flex px-2">
+          <a href="https://github.com/kabolindustrie" target="" className="group inline-flex px-2">
             <img
               width={30}
               height={30}

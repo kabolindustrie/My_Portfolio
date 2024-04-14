@@ -35,12 +35,15 @@ export default function Projects() {
             </a>
           </div>
           <p className="font-lora text-main font-medium text-xl mb-3 sm:text-2xl">
-            Titre projet
+            E-commerce Sweet Shop
           </p>
           <p className="text-dark-gray text-xs leading-5 max-w-xs sm:text-sm sm:leading-7 sm:max-w-sm lg:max-w-md">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At ad
-            cumque vitae quis facere possimus earum adipisci, quae esse.
-            Necessitatibus.
+            Sweet Shop est une plateforme Ecommerce développée en utilisant
+            React, offrant une expérience utilisateur fluide et réactive pour
+            les acheteurs en ligne. Le cœur du projet réside dans la création
+            d'une interface intuitive permettant aux utilisateurs de naviguer
+            facilement à travers une large gamme de produits, de les visualiser
+            en détail et de les acheter en toute simplicité.
           </p>
         </div>
         <div className="max-w-sm mx-auto cursor-pointer lg:max-w-full lg:translate-y-40">
@@ -56,12 +59,12 @@ export default function Projects() {
             </a>
           </div>
           <p className="font-lora text-main font-medium text-xl mb-3 sm:text-2xl">
-            Titre projet
+            Barbershop project
           </p>
           <p className="text-dark-gray text-xs leading-5 max-w-xs sm:text-sm sm:leading-7 sm:max-w-sm lg:max-w-md">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At ad
-            cumque vitae quis facere possimus earum adipisci, quae esse.
-            Necessitatibus.
+            Plateforme de réservation en ligne pour les salons de coiffure, construite avec React et stylisée avec Tailwind CSS pour une expérience utilisateur élégante et moderne.
+            L'accent est mis sur la simplicité et l'efficacité, permettant aux clients de réserver des rendez-vous en quelques clics, de consulter les disponibilités
+            des coiffeurs, et de découvrir les services proposés.
           </p>
         </div>
         <div className="max-w-sm mx-auto cursor-pointer lg:max-w-full">
