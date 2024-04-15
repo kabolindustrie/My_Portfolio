@@ -1,5 +1,5 @@
 import Mockup1 from "../assets/images/mockups/mockup1.png";
-import Mockup2 from "../assets/images/mockups/mockup2.png";
+import Barber from "../assets/images/mockups/Barber2.png";
 import Mockup3 from "../assets/images/mockups/mockup3.png";
 export default function Projects() {
   return (
@@ -48,7 +48,7 @@ export default function Projects() {
         </div>
         <div className="max-w-sm mx-auto cursor-pointer lg:max-w-full md:translate-y-40">
           <div className="group relative overflow-hidden mb-4 bg-gray-light">
-            <img height={549} width={490} src={Mockup2} alt="" />
+            <img height={1080} width={1920} src={Barber} alt="" />
             <a
               href="#"
               className="flex justify-center items-center font-semibold sm:text-lg lg:text-2xl
