@@ -1,6 +1,7 @@
 import Mockup1 from "../assets/images/mockups/mockup1.png";
-import Barber from "../assets/images/mockups/Barber2.png";
+import Barbermockup from "../assets/images/mockups/Barbermockup.png";
 import Mockup3 from "../assets/images/mockups/mockup3.png";
+import Boxymockup from "../assets/images/mockups/Boxymockup.png";
 export default function Projects() {
   return (
     <div id="projects" className="pt-14 pb-20 px-4 sm:pb-28 sm:pt-20 lg:pb-72">
@@ -46,9 +47,9 @@ export default function Projects() {
             en détail et de les acheter en toute simplicité.
           </p>
         </div>
-        <div className="max-w-sm mx-auto cursor-pointer lg:max-w-full md:translate-y-40">
+        <div className="max-w-sm mx-auto cursor-pointer lg:max-w-full md:translate-y-80">
           <div className="group relative overflow-hidden mb-4 bg-gray-light">
-            <img height={1080} width={1920} src={Barber} alt="" />
+            <img height={1080} width={1080} src={Barbermockup} alt="" />
             <a
               href="#"
               className="flex justify-center items-center font-semibold sm:text-lg lg:text-2xl
@@ -69,7 +70,7 @@ export default function Projects() {
         </div>
         <div className="max-w-sm mx-auto cursor-pointer lg:max-w-full">
           <div className="group relative overflow-hidden mb-4 bg-gray-light">
-            <img height={549} width={490} src={Mockup3} alt="" />
+            <img height={1080} width={1080} src={Boxymockup} alt="" />
             <a
               href="#"
               className="flex justify-center items-center font-semibold sm:text-lg lg:text-2xl
