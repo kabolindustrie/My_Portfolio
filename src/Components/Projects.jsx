@@ -1,4 +1,4 @@
-import Mockup1 from "../assets/images/mockups/mockup1.png";
+import SweetShopmockup from "../assets/images/mockups/SweetShopMockup.png";
 import Barbermockup from "../assets/images/mockups/Barbermockup.png";
 import Boxymockup from "../assets/images/mockups/Boxymockup.png";
 export default function Projects() {
@@ -24,7 +24,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 gap-12 mt-12 max-w-4xl mx-auto md:gap-x-12 md:gap-y-28 md:mt-24 md:grid-cols-2 lg:max-w-5xl">
         <div className="max-w-sm mx-auto cursor-pointer lg:max-w-full">
           <div className="group relative overflow-hidden mb-4 bg-gray-light">
-            <img height={549} width={490} src={Mockup1} alt="" />
+            <img height={549} width={490} src={SweetShopmockup} alt="" />
             <a
               href="#"
               className="flex justify-center items-center font-semibold sm:text-lg lg:text-2xl
