@@ -1,6 +1,5 @@
 import Mockup1 from "../assets/images/mockups/mockup1.png";
 import Barbermockup from "../assets/images/mockups/Barbermockup.png";
-import Mockup3 from "../assets/images/mockups/mockup3.png";
 import Boxymockup from "../assets/images/mockups/Boxymockup.png";
 export default function Projects() {
   return (
