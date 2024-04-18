@@ -15,9 +15,7 @@ export default function Projects() {
         Mes derniers projets
       </h2>
       <p className="text-xs text-gray-dark leading-5 max-w-xs mx-auto text-center  sm:text-sm sm:leading-7 sm:max-w-sm lg:max-w-md">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
-        deleniti minima dignissimos harum possimus non quibusdam nisi, aut,
-        magni molestiae provident! Expedita fugit sunt odio!
+      Explorez une sélection de projets qui démontrent ma passion pour le développement web. De la création d'applications web à des outils pratiques simplifiant le développement, chaque projet incarne mon approche créative et mes compétences techniques. Parcourez ces exemples pour en apprendre davantage sur mon travail.
       </p>
 
       {/* ------GRID---- */}

@@ -19,12 +19,12 @@ export default function Skill() {
       >
         Mes compétences
       </h2>
-      <p className="text-xs text-gray-light leading-5 max-w-xs mx-auto text-center mb-16 sm:text-sm sm:mb-6 sm:leading-7 sm:max-w-sm lg:max-w-md">
+      {/* <p className="text-xs text-gray-light leading-5 max-w-xs mx-auto text-center mb-16 sm:text-sm sm:mb-6 sm:leading-7 sm:max-w-sm lg:max-w-md">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
         deleniti minima dignissimos harum possimus non quibusdam nisi, aut,
         magni molestiae provident! Expedita fugit sunt odio!
-      </p>
-      <div className="grid max-w-xs mx-auto grid-cols-2 sm:grid-cols-3 sm:max-w-md md:py-8 lg:flex lg:justify-center lg:max-w-none lg:items-end">
+      </p> */}
+      <div className="grid max-w-xs mx-auto grid-cols-2 gap-1 sm:grid-cols-3 sm:max-w-md md:py-8 lg:flex lg:justify-center lg:max-w-none lg:items-end">
         <div className="text-white flex justify-center items-center flex-col flex-nowrap p-2 lg:mx-6">
           <img
             width={56}
@@ -67,10 +67,10 @@ export default function Skill() {
         </div>
         <div className="text-white flex justify-center items-center flex-col flex-nowrap p-2 lg:mx-6">
           <img
-            width={56}
+            width={70}
             height={56}
             src={Ruby}
-            alt="logo de JavaScript"
+            alt="logo de Rubis on rails"
             className="h-10 mb-4 lg:h-12 xl:h-14"
           />
           <p className="italic font-lora text-xl">Ruby on rails</p>
