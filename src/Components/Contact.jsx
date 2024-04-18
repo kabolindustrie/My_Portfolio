@@ -32,7 +32,7 @@ export default function Contact() {
             alt=""
           />
           <p className="font-bold mb-1 md:text-lg lg:text-xl">Adresse mail</p>
-          <p className="md:text-lg">amine.kabol@gmail.com</p>
+          <p className="md:text-lg">06.28.48.11.91</p>
         </div>
       </div>
     </div>

@@ -1,7 +1,8 @@
-import Fb from "../assets/images/social-media/facebook.png";
-import insta from "../assets/images/social-media/instagram.png";
+// import Fb from "../assets/images/social-media/facebook.png";
+// import insta from "../assets/images/social-media/instagram.png";
 import linkedin from "../assets/images/social-media/linkedin.png";
-import twitter from "../assets/images/social-media/twitter.png";
+// import twitter from "../assets/images/social-media/twitter.png";
+import github from "../assets/images/social-media/githubicon.png";
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
       <div className="max-w-4xl mx-auto flex items-center flex-col lg:flex-row lg:justify-between">
         <p className="text-white underline">amine.kabol@gmail.com</p>
         <div className="flex my-4 lg:order-3">
-          <a href="#" target="_blank" className="p-2">
+          {/* <a href="#" target="_blank" className="p-2">
             <img
               width={17}
               height={17}
@@ -26,7 +27,7 @@ export default function Footer() {
               src={insta}
               alt="Icone Facebook"
             />
-          </a>
+          </a> */}
           <a href="#" target="_blank" className="p-2">
             <img
               width={17}
@@ -41,8 +42,8 @@ export default function Footer() {
               width={17}
               height={17}
               className="h-4"
-              src={twitter}
-              alt="Icone Facebook"
+              src={github}
+              alt="Icone Github"
             />
           </a>
         </div>
