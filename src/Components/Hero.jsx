@@ -1,7 +1,7 @@
 import portrait from "../assets/images/hero/ProfilePicture.jpg";
 // import arrow from "../assets/images/general/arrowDown.png";
 import decoration from "../assets/images/hero/decoration.png";
-import CV_AmineK from "../assets/images/general/CV_AmineK.pdf";
+import CV_AmineK from "../assets/images/general/CV_AmineK_frontend.pdf";
 import ArrowDownload from "../assets/images/general/ArrowDownload.png";
 
 export default function Hero() {
@@ -43,7 +43,7 @@ export default function Hero() {
                   <div className="flex space-x-2">
                     {/* <a
                       className="p-1 -m-1 text-gray-400 hover:text-amber-500 focus:outline-none focus-visible:ring-2 ring-primary"
-                      href="https://www.twitter.com/smilesharks"
+                      href=""#""
                       rel="noopener"
                       aria-label="Ariel Cerda on Twitter"
                       target="_blank"

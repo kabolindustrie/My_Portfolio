@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div id="projects" className="pt-14 pb-20 px-4 sm:pb-28 sm:pt-20 lg:pb-72">
       <p className="italic font-lora text-center text-gray-dark text-sm mb-4 md:text-lg">
-        Découvrez mon savoir faires
+        Découvrez mon savoir-faire
       </p>
       <h2
         className="text-main font-lora relative z-0 text-2xl w-fit mx-auto mb-7 sm:text-4xl sm:mb-10 md:text-5xl md:mb-12
@@ -24,7 +24,8 @@ export default function Projects() {
           <div className="group relative overflow-hidden mb-4 bg-gray-light">
             <img height={549} width={490} src={SweetShopmockup} alt="" />
             <a
-              href="#"
+              href="https://sweet-eshop.web.app/"
+              target="_blank"
               className="flex justify-center items-center font-semibold sm:text-lg lg:text-2xl
             absolute top-0 left-0 w-full h-full bg-main text-white opacity-0 z-10 translate-y-full duration-300 group-hover:translate-y-0 group-hover:opacity-70
             "
@@ -48,7 +49,8 @@ export default function Projects() {
           <div className="group relative overflow-hidden mb-4 bg-gray-light">
             <img height={1080} width={1080} src={Barbermockup} alt="" />
             <a
-              href="#"
+              href="https://the-barber-show.web.app/"
+              target="_blank"
               className="flex justify-center items-center font-semibold sm:text-lg lg:text-2xl
             absolute top-0 left-0 w-full h-full bg-main text-white opacity-0 z-10 translate-y-full duration-300 group-hover:translate-y-0 group-hover:opacity-70
             "
@@ -69,7 +71,8 @@ export default function Projects() {
           <div className="group relative overflow-hidden mb-4 bg-gray-light">
             <img height={1080} width={1080} src={Boxymockup} alt="" />
             <a
-              href="#"
+              href="https://box-generator.web.app/"
+              target="_blank"
               className="flex justify-center items-center font-semibold sm:text-lg lg:text-2xl
             absolute top-0 left-0 w-full h-full bg-main text-white opacity-0 z-10 translate-y-full duration-300 group-hover:translate-y-0 group-hover:opacity-70
             "
