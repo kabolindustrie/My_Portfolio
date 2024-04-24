@@ -1,8 +1,4 @@
-// import Fb from "../assets/images/social-media/facebook.png";
-// import insta from "../assets/images/social-media/instagram.png";
-import linkedin from "../assets/images/social-media/linkedin.png";
-// import twitter from "../assets/images/social-media/twitter.png";
-import github from "../assets/images/social-media/githubicon.png";
+
 
 export default function Footer() {
   return (
